@@ -9,7 +9,7 @@ class animal
 
     public function _construct($string)
     {
-        $this->name = $string;
+        $this->$name = $string;
     }
 }
 
